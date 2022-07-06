@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,600&family=Quicksand:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F3F4ED;
+}
+nav{
+    background-color: #F8D727;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+
+}
+
+p {
+	text-align: justify;
+	line-height: 25px;
+}
+
+h3{
+	color: yellow;
+	font-style: italic;
+	padding: 0 0 20px 0
+}
+
+div, article, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+main {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.container{
+	display: flex;
+	min-height: 100vh; 
+  	align-items: center;
+	padding: 30px;
+	box-sizing: border-box;
+	border: 2px #F8D727;
+	justify-content: center;
+
+}
+
+.box {
+	width: 50%;
+	height: 50%;
+	box-sizing: border-box;
+	border: 2px;
+	padding: 50px;
+	border-color: #F8D727 
+}
+
+.biodata {
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+  	color: black;
+  	margin: auto;
+ 
+}
+
+#section{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    height: 60vh;
+}
+
+.bio{
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+    transition: all .3s linear;
+}
+.bio:hover{
+    background-color: #e5e5e5;
+}
+#pass-photo{
+    width: 150px;
+    height: 150px;
+}
+.pas {
+	width: 20%;
+	height: 20%;
+	border-radius: 100%;
+	margin: 30px;
+}
+
+#foot{
+    background-color: #F4C7AB;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center
+}
+
+#uni {
+	width: 25%;
+}
+
+.gambar {
+	border-radius: 15%;
+}
+
+.menu {
+    margin: 0 auto;
+
+}
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    color: #1957A4 ;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.judul{
+    font-weight: 900;
+}
+
+
+section, article, header, footer{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+#judul, #kursi, #meja, #rak, #tanaman{
+   background-color: #1957A4;
+}
+
+#section{
+     background-color: #F3F4ED;
+}
+
+#home{
+ background-color: #F8D727;   
+}
+
+
+.sampul{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel{
+    max-width: 700px;
+    margin: auto;
+
+    position: relative;
+}
+div img{
+    width: 500px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+
+}
+
+#prev-btn{
+    position: absolute;
+    top: 47.5%;
+    z-index: 10;
+    left: 5%;
+    font-size: 40px;
+    color: #2559A3;
+    opacity: 0.5;
+    cursor: pointer;
+}
+#next-btn{
+    position: absolute;
+    top: 47.5%;
+    z-index: 10;
+    right: 5%;
+    font-size: 40px;
+    color: #2559A3;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#prev-btn:hover{
+    opacity: 1;
+}
+#next-btn:hover{
+    opacity: 1;
+}
